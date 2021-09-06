@@ -1,4 +1,10 @@
 /* @charset <“UTF-8”>; */
 /* CSS Document */
 
-.jgrlogo { padding: 50px; max-width: 75px;}
+.jgrlogo { max-width: 75px; }
+
+body { font-family: "Helvetica Neue"; margin: 50px; }
+
+#header-ul { position: absolute; left: 3%; top: 18%; }
+
+.header-li { padding: 4%; list-style-type: none; }
