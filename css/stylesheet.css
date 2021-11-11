@@ -1,0 +1,41 @@
+/* @charset <“UTF-8”>; */
+/* CSS Document */
+
+#jgrlogo { 
+    width: 50px;
+    height: auto;
+}
+
+body { 
+    font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif; 
+    margin: 50px;
+    background-color: #fbfbf6;
+    /* background-color: #fffaf0; */
+}
+
+header > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    max-width: 310px;
+
+}
+
+/* header-ul { 
+    position: absolute; 
+    left: 3%; 
+    top: 18%; 
+}
+
+header-li { 
+    padding: 4%; 
+    list-style-type: none; 
+} */
+
+h1 {
+    font-weight: bold;
+    position: absolute;
+    left: 115px;
+    top: calc(60px + (20px - 0.49em));
+    font-size: 25pt;
+}
