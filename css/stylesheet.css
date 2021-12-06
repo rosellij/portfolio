@@ -11,7 +11,12 @@ body {
     margin: 50px;
     background-color: #fbfbf6;
     /* background-color: #fffaf0; */
+    line-height: 2
 }
+
+/* body * {
+    line-height: 2;
+} */
 
 header > ul {
     display: flex;
@@ -59,19 +64,45 @@ main > p {
 
 .portfoliocardcontainer {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row; 
+    temp change for temp portfolio*/
+    flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .portfoliocard {
     flex: 1 1 300px;
-    max-width: 500px;
+    /* max-width: 500px; 
+    temp change for temp portfolio*/
     min-width: 300px;
-    background-color: blue;
+    background-color: goldenrod;
     border-radius: 10px;
     padding: 10px;
     margin: 5px;
+}
+
+.thirdlink {
+    display: none;
+}
+
+/* just for tempportfolio!*/
+#portfoliocard_4, #portfoliocard_5 {
+    display: none;
+}
+
+.portfoliocardtitle {
+    font-weight: bold;
+}
+
+#iframe1, #iframe2, #iframe3 {
+    display: block;
+    margin: auto;
+}
+
+#iframe2, #iframe3 {
+    width: 50%;
+    height: 700px;
 }
 
 @media only screen and (max-width: 500px) {
