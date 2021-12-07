@@ -95,7 +95,7 @@ main > p {
     font-weight: bold;
 }
 
-#iframe1, #iframe2, #iframe3 {
+#iframe1, #iframe2, #iframe3, #iframe4 {
     display: block;
     margin: auto;
 }
@@ -103,6 +103,34 @@ main > p {
 #iframe2, #iframe3 {
     width: 50%;
     height: 700px;
+}
+
+.supplementalimg, .supplementaltext {
+    display: block;
+    margin: auto;
+    max-width: 50%;
+}
+
+.supplementaltext {
+    text-align: center;
+}
+
+.supplementalimg {
+    border-radius: 10px;
+}
+
+#sketches {
+    max-width: 75%;
+}
+
+.sideblurb {
+    float: right;
+    padding-left: 50px;
+    max-width: 250px;
+}
+
+.sideblurb > img {
+    border-radius: 10px;
 }
 
 @media only screen and (max-width: 500px) {
