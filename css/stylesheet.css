@@ -59,7 +59,10 @@ main > p {
 }
 
 #imgofme1 {
-    max-width: 200px;
+    max-width: 400px;
+    margin: 50px 0px 150px 50px;
+    float: right;
+    border-radius: 10px;
 }
 
 .portfoliocardcontainer {
@@ -95,7 +98,7 @@ main > p {
     font-weight: bold;
 }
 
-#iframe1, #iframe2, #iframe3, #iframe4 {
+#iframe1, #iframe2, #iframe3, #iframe4, #iframe5 {
     display: block;
     margin: auto;
 }
@@ -119,7 +122,7 @@ main > p {
     border-radius: 10px;
 }
 
-#sketches {
+.supplementalimg2 {
     max-width: 75%;
 }
 
