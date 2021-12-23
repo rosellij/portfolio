@@ -14,16 +14,11 @@ body {
     line-height: 2
 }
 
-/* body * {
-    line-height: 2;
-} */
-
 header > ul {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     max-width: 310px;
-
 }
 
 header > ul > li {
@@ -46,12 +41,17 @@ h1 {
     position: absolute;
     left: 115px;
     /* top: calc(60px + (20px - 0.49em)); */
-    top: 65px;
+    top: 50px;
     font-size: 25pt;
 }
 
+.portfoliocard > h3 {
+    font-size: 125%;
+    font-weight: bold;
+}
+
 main {
-    margin-top: 75px;
+    margin-top: 25px;
 }
 
 main > p {
@@ -67,35 +67,39 @@ main > p {
 
 .portfoliocardcontainer {
     display: flex;
-    /* flex-direction: row; 
-    temp change for temp portfolio*/
-    flex-direction: column;
+    flex-direction: column; 
     flex-wrap: wrap;
     justify-content: center;
 }
 
 .portfoliocard {
-    flex: 1 1 300px;
-    /* max-width: 500px; 
-    temp change for temp portfolio*/
-    min-width: 300px;
+    flex-grow: 1;
+    flex-shrink: 4;
+    /*flex: 1 1 300px;*/
+    /* max-width: 500px;
+    min-width: 300px; */
     background-color: goldenrod;
+    color: black;
     border-radius: 10px;
     padding: 10px;
     margin: 5px;
+    min-height: 70px;
+    transition: background-color 1s, min-height 1s, color 1s;
 }
 
-.thirdlink {
+/* .thirdlink {
     display: none;
-}
+} */
 
-/* just for tempportfolio!*/
+/* just for tempportfolio!
 #portfoliocard_4, #portfoliocard_5 {
     display: none;
-}
+} */
 
 .portfoliocardtitle {
     font-weight: bold;
+    text-align: center;
+    font-size: 20pt;
 }
 
 #iframe1, #iframe2, #iframe3, #iframe4, #iframe5 {
@@ -136,10 +140,43 @@ main > p {
     border-radius: 10px;
 }
 
+.portfoliocard:focus {
+    background-color: red;
+    min-height: 1500px;
+    flex-direction: column;
+    color: white;
+}
+
+#msgclogo {
+    height: auto;
+    max-width: 200px;
+    float: right;
+    margin: 15px;
+}
+
+.accessibilitypic {
+    height: auto;
+    max-width: 300px;
+    margin: 15px;
+}
+
+#accessibilitypicdiv {
+    text-align: center;
+}
+
+/*.cardhoverclass {
+    flex-grow: 20;
+}
+
+.cardnothoverclass {
+    flex-shrink: 2;
+}*/
+
 @media only screen and (max-width: 500px) {
     h1 {
-        top: 40px;
+        top: 45px;
         max-width: 150px;
         font-size: 20pt;
+        line-height: 1;
     }
 }
