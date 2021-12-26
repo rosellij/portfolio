@@ -148,11 +148,12 @@ main > p {
     color: white;
 }
 
-#msgclogo, #icclogo {
+#msgclogo, #icclogo, #frontporchlogo {
     height: auto;
     max-width: 200px;
     float: right;
     margin: 15px;
+    border-radius: 10px;
 }
 
 .accessibilitypic {
