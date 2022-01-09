@@ -148,7 +148,7 @@ main > p {
     color: white;
 }
 
-#msgclogo, #icclogo, #frontporchlogo {
+#msgclogo, #icclogo, #frontporchlogo, #hang5logo {
     height: auto;
     max-width: 200px;
     float: right;
@@ -162,7 +162,11 @@ main > p {
     margin: 15px;
 }
 
-#accessibilitypicdiv {
+#pyetbrainstormingdiv > img {
+    max-width: 300px;
+}
+
+#pyetbrainstormingdiv, #accessibilitypicdiv, #heuristicevalpicdiv, #affinitywalldiv {
     text-align: center;
 }
 
