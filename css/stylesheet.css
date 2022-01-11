@@ -103,7 +103,7 @@ main > p {
     font-size: 20pt;
 }
 
-#iframe1, #iframe2, #iframe3, #iframe4, #iframe5 {
+#iframe1, #iframe2, #iframe4, #iframe5 {
     display: block;
     margin: auto;
 }
@@ -111,6 +111,11 @@ main > p {
 #iframe2, #iframe3 {
     width: 50%;
     height: 700px;
+}
+
+#iframe3 {
+    margin-top: 20px;
+    margin-left: 23px;
 }
 
 .supplementalimg, .supplementaltext {
@@ -166,8 +171,86 @@ main > p {
     max-width: 300px;
 }
 
-#pyetbrainstormingdiv, #accessibilitypicdiv, #heuristicevalpicdiv, #affinitywalldiv {
+/* #pyetbrainstormingdiv, #accessibilitypicdiv, #heuristicevalpicdiv, #affinitywalldiv {
     text-align: center;
+} */
+
+.deliverablediv {
+    text-align: center;
+}
+
+.iframetype1 {
+    min-width: 300px;
+    width: 60%;
+    height: auto;
+    min-height: 300px;
+}
+
+.iframetype2 {
+    min-width: 400px;
+    width: 80%;
+    height: auto;
+    min-height: 350px;
+}
+
+#frontporchuserflow {
+    width: 80%;
+}
+
+#frontporchstyleguide {
+    width: 45%;
+    float: left;
+    border-radius: 10px;
+    position: relative;
+    top: 28vw;
+}
+
+#frontporchwireframe {
+    width: 53%;
+    min-width: 400px;
+    height: auto;
+    min-height: 350px;
+    float: right;
+}
+
+#iframe3, .roundcorners {
+    border-radius: 10px;
+}
+
+#frontporchwhiteboarding {
+    width: 50%;
+    min-width: 400px;
+    height: auto;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+
+#frontporchpersonas {
+    min-width: 500px;
+    height: auto;
+    margin: 0px auto 20px auto;
+    display: block;
+}
+
+#frontporchwhiteboardingtext {
+    text-align: center;
+    position: relative;
+    top: 5vw;
+}
+
+#frontporchpaperprototype {
+    float: right;
+    /* width: 70%; */
+    margin-left: 20px;
+    margin-bottom: 20px;
+    max-width: 300px;
+    height: 709px;
+}
+
+#frontporchpaperprototypetext {
+    position: relative;
+    top: 15vw;
 }
 
 /*.cardhoverclass {
