@@ -253,6 +253,11 @@ main > p {
     top: 15vw;
 }
 
+.msgcboard {
+    max-width: 70%;
+    height: auto;
+}
+
 /*.cardhoverclass {
     flex-grow: 20;
 }
