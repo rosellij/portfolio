@@ -78,13 +78,14 @@ main > p {
     /*flex: 1 1 300px;*/
     /* max-width: 500px;
     min-width: 300px; */
-    background-color: goldenrod;
+    background-image: linear-gradient(goldenrod, goldenrod);
     color: black;
     border-radius: 10px;
     padding: 10px;
     margin: 5px;
     min-height: 70px;
-    transition: background-color 1s, min-height 1s, color 1s;
+    /* make this transition into background-image later if that's at all possible! */
+    transition: background-image 1s, min-height 1s, color 1s;
     padding: 30px;
 }
 
@@ -147,10 +148,30 @@ main > p {
 }
 
 .portfoliocard:focus {
-    background-color: red;
     min-height: 1500px;
     flex-direction: column;
     color: white;
+}
+
+#portfoliocard_1:focus {
+    background-image: linear-gradient(#2b3e66, #90b6d8);
+}
+
+#portfoliocard_2:focus {
+    background-image: linear-gradient(#BA4552, #BD7B46, #CFBC5E, #1FC39E, #0D80CF);
+}
+
+#portfoliocard_3:focus {
+    background-image: linear-gradient(#C4C4C4, #FFEB79, #FFAA04, #E36615, #8CAC33);
+}
+
+/* futz with this man a bit to get some better results from this color spectrum */
+#portfoliocard_4:focus {
+    background-image: linear-gradient(#FFFFFF, #f30f0c, #f8ec04, #12469c);
+}
+
+#portfoliocard_5:focus {
+    background-image: linear-gradient(#2f5929, #2f5929);
 }
 
 #msgclogo, #icclogo, #frontporchlogo, #hang5logo {
