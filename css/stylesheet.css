@@ -110,12 +110,12 @@ main > p {
     margin: auto;
 }
 
-#iframe2, #iframe3 {
+#iframe2, .iframe3 {
     width: 50%;
     height: 700px;
 }
 
-#iframe3 {
+#iframe3original {
     margin-top: 20px;
     margin-left: 23px;
 }
@@ -240,7 +240,7 @@ main > p {
     float: right;
 }
 
-#iframe3, .roundcorners {
+.iframe3, .roundcorners {
     border-radius: 10px;
 }
 
@@ -278,6 +278,7 @@ main > p {
 #frontporchpaperprototypetext {
     position: relative;
     top: 15vw;
+    max-width: 60%
 }
 
 .msgcboard {
