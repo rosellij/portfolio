@@ -230,6 +230,7 @@ main > p {
     border-radius: 10px;
     position: relative;
     top: 28vw;
+    max-height: 1030px;
 }
 
 #frontporchwireframe {
